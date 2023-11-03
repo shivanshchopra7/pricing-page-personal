@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pricing Page with Tailwind CSS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body id="page-container" class=" w-full bg-gray-200  mx-auto">    
+<header class="text-center flex flex-col items-center justify-center pt-5">
+  
+  <p class=" text-4xl font-medium">Pricing</p>
+ 
+  <p class="text-lg text-gray-700 mt-2 px-6">Signup for a free 14-day trial today! No Payment needed.</p>
+  <div class="flex justify-center items-center mt-4">
+    <div class="bg-pink-500 h-1 w-24 opacity-75 rounded"></div>
+  </div>
+
+
+ 
+</header>
+<main
+class="flex flex-col md:flex-row gap-5 items-center justify-center px-5 md:px-40 md:gap-0 pt-5"
+>
+
+<section
+id="basic-pricing-card"
+class="bg-white text-black shadow-md p-5 pb-10 rounded border-t border-gray-100 flex flex-col items-center"
+>
+<h2 class="text-2xl font-bold text-center">BASIC</h2>
+<h4 class="text-base  font-semibold text-center text-slate-500">$7/mo</h4>
+<p class="text-gray-700 mt-2 mx-auto py-5">Stripe offers everything needed to run an online business at scale. Get in touch for details.</p>
+<ul class="text-xl text-slate-600">
+  <li class="flex justify-start items-center">
+    <svg
+      class="w-6 h-6 align-middle m-2 stroke-green-700"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    >
+      <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+      <polyline points="22 4 12 14.01 9 11.01"></polyline>
+    </svg>
+    <p>1 Course</p>
+  </li>
+  <li class="flex justify-center items-center">
+    <svg
+      class="w-6 h-6 align-middle m-2 stroke-green-700"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    >
+      <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+      <polyline points="22 4 12 14.01 9 11.01"></polyline>
+    </svg>
+    <p>Unlimited Students</p>
+  </li>
+  <li class="flex justify-center items-center">
+    <svg
+      class="w-6 h-6 align-middle m-2 stroke-green-700"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    >
+      <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+      <polyline points="22 4 12 14.01 9 11.01"></polyline>
+    </svg>
+    <p>Limited Integration</p>
+  </li>
+</ul>
+<a
+  class="bg-indigo-500 text-lg font-semibold text-white rounded py-3 mt-10 px-20 shadow-xl hover:bg-indigo-600 transition-colors"
+>
+  <span>TRY IT FREE</span>
+</a>
+</section>
+<section id="popular-pricing-card"  class="rounded shadow-md flex flex-col pb-16 items-center justify-center border-gray-100 bg-white">
+  <h3  class="bg-pink-500 rounded-t font-semibold flex items-center justify-center h-14 text-white w-full text-center text-sm">
+    MOST POPULAR
+  </h3>
+  <div
+          class="px-3 flex flex-col items-center justify-center border-gray-100 bg-white"
+        >
+        <h3 class="text-xl pt-2 font-bold">PLUS</h3>
+        <h4 class="text-3xl text-slate-600 ">$15/mo</h4>
+        <p class="text-gray-700 mt-2 mx-auto py-5">Stripe offers everything needed to run an online business at scale. Get in touch for details.</p>
+        <ul class="text-xl text-slate-600">
+          <li class="flex justify-start items-center">
+            <svg
+              class="w-6 h-6 align-middle m-2 stroke-green-700"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+            <p>Up to 5 Courses</p>
+          </li>
+          <li class="flex justify-start items-center">
+            <svg
+              class="w-6 h-6 align-middle m-2 stroke-green-700"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+            <p>Unlimited Students</p>
+          </li>
+          <li class="flex justify-start items-center">
+            <svg
+              class="w-6 h-6 align-middle m-2 stroke-green-700"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+            <p>All Integrations!</p>
+          </li>
+          </ul>
+          </div>
+          <a
+                class="bg-indigo-500 text-lg font-semibold text-white rounded py-3 mt-10 px-20 shadow-xl hover:bg-indigo-600 "
+              >
+                <p>TRY IT FREE</p>
+        </a>
+      </section>
+      <section id="pro-pricing-card" class="bg-white text-black shadow-md p-5 pb-10 rounded border-t border-gray-100 flex flex-col items-center">
+     
+        <h2 class="text-2xl font-bold text-center">PRO</h2>
+    <h4 class="text-base  font-semibold text-center text-slate-500">$30/mo</h4>
+    <p class="text-gray-700 mt-2 mx-auto py-5">Stripe offers everything needed to run an online business at scale. Get in touch for details.</p>
+  <ul class="text-xl text-slate-600">
+    <li class="flex items-center justify-start">
+      <svg
+        class="w-6 h-6 align-middle m-2 stroke-green-700"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+      </svg>
+      <p>Up to 10 Courses</p>
+    </li>
+    <li class="flex items-center justify-start">
+      <svg
+        class="w-6 h-6 align-middle m-2 stroke-green-700"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+      </svg>
+      <p>Unlimited Students</p>
+    </li>
+    <li class="flex items-center justify-start">
+      <svg
+        class="w-6 h-6 align-middle m-2 stroke-green-700"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+      </svg>
+      <p>All Integrations!</p>
+    </li>
+  </ul>  
+
+  <a
+  class="bg-indigo-500 text-lg font-semibold text-white rounded py-3 mt-10 px-20 shadow-xl hover:bg-indigo-600 "
+>
+  <span>TRY IT FREE</span>
+</a>
+  </section>
+  </body>
+</html>
